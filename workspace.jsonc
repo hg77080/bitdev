@@ -10,7 +10,7 @@
     /**
      * the name of the component workspace. used for development purposes.
      **/
-    "name": "my-space",
+    "name": "my-workspace",
     /**
      * set the icon to be shown on the Bit server.
      **/
@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "hg77080.getting-button",
+    "defaultScope": "hg77080.newcomponent",
     "resolveAspectsFromNodeModules": true,
     "resolveEnvsFromRoots": true
   },
@@ -63,6 +63,7 @@
         "@teambit/react.mounter": "1.0.3",
         "@teambit/react.react-env": "1.0.32",
         "@teambit/typescript.typescript-compiler": "2.0.13",
+        "classnames": "^2.3.2",
         "eslint": "^7.28.0"
       },
       "peerDependencies": {}
@@ -75,7 +76,7 @@
   },
   "teambit.generator/generator": {
     "envs": [
-      "hg77080.getting-button/envs/my-react-env"
+      "hg77080.newcomponent/envs/my-react-env"
     ]
   }
 }

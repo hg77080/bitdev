@@ -2,6 +2,6 @@ import { MyFirstComponent } from './my-first-component';
 
 export const BasicMyFirstComponent = () => {
   return (
-    <MyFirstComponent>hello world!</MyFirstComponent>
+    <MyFirstComponent buttonText='hello' variant='secondary' size='lg'/>
   );
 }
